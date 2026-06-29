@@ -1,5 +1,8 @@
 # uav-fault-tolerant-control
 
+Modeling and analysis of fault-tolerant controllers for quadcopter UAVs under sensor and actuator
+fault scenarios, with adversarial attacks and dynamic sensor reliability policies.
+
 This repository was originally developed in the context of the *Security of Safety-Critical Systems*
 course at IIT Madras, and refactored into a research-grade Python package.
 
