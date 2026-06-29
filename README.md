@@ -75,8 +75,6 @@ uav-fault-tolerant-control/
 └── docs/
     └── index.md
 
-
-
 ## Installation
 
 ```bash
