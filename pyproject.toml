@@ -26,4 +26,4 @@ dev = ["pytest>=8.0", "black>=24.0", "ruff>=0.4"]
 
 [project.urls]
 "Source" = "https://github.com/Enigma-cit/uav-fault-tolerant-control"
-"Documentation" = "https://github.com/Enigma-cituav-fault-tolerant-control/docs"
+"Documentation" = "https://github.com/Enigma-cit/uav-fault-tolerant-control/docs"
