@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uav-fault-tolerant-control"
+version = "0.1.0"
+description = "Modeling and analysis of fault-tolerant controllers for quadcopter UAVs under sensor/actuator faults and adversarial attacks."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Shriya Pandey", email = "pandeyshriya12@gmail.com" }
+]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.13",
+  "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "black>=24.0", "ruff>=0.4"]
+
+[project.urls]
+"Source" = "https://github.com/Enigma-cit/uav-fault-tolerant-control"
+"Documentation" = "https://github.com/Enigma-cituav-fault-tolerant-control/docs"
