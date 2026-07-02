@@ -1,7 +1,7 @@
 import numpy as np
 from uav_ftc.config import QuadrotorParams
 
-
+ 
 def linearize_hover(params: QuadrotorParams) -> tuple[np.ndarray, np.ndarray]:
     """
     Linearized dynamics around hover (small angles, hover thrust):
