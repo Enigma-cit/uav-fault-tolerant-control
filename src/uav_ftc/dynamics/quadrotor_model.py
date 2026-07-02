@@ -1,7 +1,7 @@
 import numpy as np
 from uav_ftc.config import QuadrotorParams, SimulationParams
 
-
+ 
 class QuadrotorDynamics:
     """
     Newton–Euler quadrotor model in x-configuration.
