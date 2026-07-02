@@ -1,7 +1,7 @@
 import numpy as np
 from uav_ftc.config import QuadrotorParams, SimulationParams
 from uav_ftc.dynamics.quadrotor_model import QuadrotorDynamics
-
+ 
 
 def test_hover_equilibrium():
     quad = QuadrotorDynamics(QuadrotorParams(), SimulationParams(dt=0.01, t_final=0.1))
