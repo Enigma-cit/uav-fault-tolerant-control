@@ -1,5 +1,5 @@
 import numpy as np
-
+ 
 
 class IMUModel:
     def __init__(self, accel_bias: np.ndarray, gyro_bias: np.ndarray,
