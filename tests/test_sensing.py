@@ -1,7 +1,7 @@
 import numpy as np
 from uav_ftc.faults.sensor_faults import SensorFaultModel
 from uav_ftc.sensing.fusion_reliability import SensorFusionReliability
- 
+  
 
 def test_fusion_weights_sum_to_one():
     imu_fault = SensorFaultModel(dropout_prob=0.1)
