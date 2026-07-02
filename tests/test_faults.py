@@ -2,7 +2,7 @@ import numpy as np
 from uav_ftc.faults.sensor_faults import SensorFaultModel
 from uav_ftc.faults.actuator_faults import ActuatorFaultModel
 
-
+ 
 def test_sensor_dropout_returns_none():
     fault = SensorFaultModel(dropout_prob=1.0, seed=0)
     meas = np.array([1.0, 2.0, 3.0])
