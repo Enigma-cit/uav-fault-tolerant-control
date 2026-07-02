@@ -2,7 +2,7 @@ import numpy as np
 from uav_ftc.config import PIDGains, QuadrotorParams
 from uav_ftc.control.pid_cascade import CascadedPIDController
 
-
+ 
 class FaultTolerantController:
     """
     Fault-tolerant controller for quadrotor:
