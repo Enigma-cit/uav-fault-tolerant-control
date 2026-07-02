@@ -4,7 +4,7 @@ import numpy as np
 def compute_metrics(time: np.ndarray, p_traj: np.ndarray, p_ref: np.ndarray,
                     u_traj: np.ndarray) -> dict:
     """
-    Compute time-domain resilience metrics:
+    Compute time-domain resilience metrics: 
 
     - RMS tracking error
     - max overshoot
