@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-
+ 
 @dataclass
 class FaultScenario:
     name: str
