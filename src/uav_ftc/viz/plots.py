@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-
+ 
 
 def plot_trajectory(time: np.ndarray, p_traj: np.ndarray, p_ref: np.ndarray):
     fig, axes = plt.subplots(3, 1, sharex=True, figsize=(8, 6))
