@@ -13,4 +13,4 @@ implements modeling and analysis tools for fault-tolerant quadrotor control.
 - `uav_ftc.viz`: Plotting and animation utilities.
 
 See the `examples/` directory for end-to-end scripts demonstrating hover control,
-fault injection experiments, and adversarial attack scenarios.
+fault injection experiments, and adversarial attack scenarios. 
