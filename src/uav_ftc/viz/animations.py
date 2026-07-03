@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-
+ 
 
 def animate_xy_traj(time: np.ndarray, p_traj: np.ndarray, filename: str | None = None):
     """
